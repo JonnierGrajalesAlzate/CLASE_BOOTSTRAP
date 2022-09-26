@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.wallpaperuse.com/wallp/10-109630_m.jpg");
+}
+
+.todo{
+    justify-content: center;
+    display: flex;
+
+}
+
+.jonni{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+label{
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+}
+
+input::placeholder{
+    color: rgb(84, 83, 83);
+
+}
+
+
+.card{
+    margin-top: 30px;
+    
+}
+
+.pie{
+    background-color: rgba(240, 255, 255, 0.364);
+    text-align: center;
+
+    
+    
+}
+
+
